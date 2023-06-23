@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Responsive Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <style>
+        html {
+            font-family: 'Poppins';
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            margin: 10px;
+            text-align: center;
+            font-size: 1.4em;
+        }
+
+        .d1 {
+            float: left;
+            width: 30%;
+        }
+
+        .d2 {
+            float: right;
+            width: 70%;
+        }
+
+        .exp {
+            padding: 10% 20px;
+            font-size: 1.5em;
+        }
+
+        .d3 {
+            clear: both;
+        }
+
+        .fcts {
+            font-size: 1.3em;
+        }
+
+        @media only screen and (max-width: 700px) {
+
+            .d1,
+            .d2 {
+                float: none;
+                width: 100%;
+            }
+
+            .exp {
+                padding: 30px 5px;
+                font-size: 1em;
+            }
+
+            .fcts {
+                font-size: 1em;
+            }
+        }
+
+        @media only screen and (max-width: 1400px) {
+            .exp {
+                padding: 5% 20px;
+                font-size: 1.3em;
+            }
+
+            .fcts {
+                font-size: 1.2em;
+            }
+        }
+
+        @media only screen and (max-width: 1100px) {
+            .exp {
+                padding: 2% 20px;
+                font-size: 1.1em;
+            }
+
+            .fcts {
+                font-size: 1.1em;
+            }
+        }
+
+        @media only screen and (max-width: 900px) {
+            .exp {
+                padding: 0% 10px;
+                font-size: 1em;
+            }
+
+            .fcts {
+                font-size: 1em;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            .exp {
+                margin: 0 0;
+                padding: 0% 10px;
+                font-size: 1em;
+            }
+
+            .fcts {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The Moon</h1>
+    <hr>
+    <div class="d1">
+        <img src="moon-pexels.jpg" alt="Moon" width="600" height="600" />
+    </div>
+    <div class="d2">
+        <p class="exp">The moon is Earth's most constant companion and the easiest celestial object to find in the night
+            sky.
+
+            The rhythm of the phases of the moon has guided humanity for millennia; for instance, calendar months are
+            roughly equal to the time it takes to go from one full moon to the next. But the moon's orbit and phases can
+            seem mysterious. for example, the moon always shows us the same face, but it's always changing size as how
+            much of it we see depends on the moon's position in relation to Earth and the sun.</p>
+    </div>
+    <div class="d3">
+        <h3>Fun Facts</h3>
+
+        <ul>
+            <li class="fcts">If you set a single green pea next to a U.S. nickel, you'd have a pretty good idea of the
+                size of the
+                Moon
+                compared to Earth.</li>
+            <li class="fcts">The Moon is Earth's only natural satellite. It goes around the Earth at a distance of about
+                239,000
+                miles
+                (385,000 kilometers).</li>
+            <li class="fcts">The Earth and Moon are tidally locked. Their rotations are so in sync we only see one side
+                of the Moon.
+                Humans didn't see the lunar far side until a Soviet spacecraft flew past in 1959.</li>
+            <li class="fcts">The Moon has a solid, rocky surface cratered and pitted from impacts by asteroids,
+                meteorites, and
+                comets.</li>
+            <li class="fcts">The Moon has a very thin and tenuous atmosphere called an exosphere. It is not breathable.
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
